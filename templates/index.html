@@ -1,6 +1,26 @@
 {% extends 'layout.html' %}
 
-{% block content %}
+{% block main_page %}
+<div class="wrapper">
+    <div class="info">
+        <div class="description">
+            <p class="names">Пока ничего в голову не приходит, потом подумаю что здесь написать</p>
+            <div class="desc">
+                <ul class="checkmark">
+                    <li><a href="{{ url_for('aaa') }}">навыки</a></li>
+                    <li><a href="{{ url_for('bbb') }}">которыми</a></li>
+                    <li><a href="{{ url_for('ccc') }}">владеет</a></li>
+                    <li><a href="{{ url_for('ddd') }}">пользователь</a></li>
+                    <li><a href="{{ url_for('eee') }}">страницы</a></li>
+                    <li><a href="{{ url_for('fff') }}">пу пу пу</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
 
 
-{% endblock content %}
+
+
+</div>
+
+{% endblock main_page %}
