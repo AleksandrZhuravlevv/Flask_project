@@ -20,26 +20,41 @@
 <body>
 <div class="wrapper">
     {% block menu %}
-
-{% endblock menu %}
+    <header class="header">
+        <ul class="main_menu">
+            <li><a href="#"><p>Главная</p></a></li>
+            <li><a href="#"><p>Блог</p></a></li>
+            <li><a href="#"><p>Регистрация</p></a></li>
+            <li><a href="#"><p>Логин</p></a></li>
+            <li><a href="#"><p>Аккаунт</p></a></li>
+            <li><a href="#"><p>Создать</p></a></li>
+            <li><a href="#"><p>Выход</p></a></li>
+        </ul>
+    </header>
+    {% endblock menu %}
 
 
 
 
     {% block content %}
 
-{% endblock content %}
+    {% endblock content %}
 
 
     {% block main_page %}
-
-{% endblock main_page %}
-
+        <div class="content">
 
 
-{% block footer %}
+        </div>
+    {% endblock main_page %}
 
-{% endblock footer %}
+
+
+    {% block footer %}
+        <footer class="footer">Все права защищены!<br>
+            &#169; Журавлёв Александр 2023
+        </footer>
+    {% endblock footer %}
 
 </div>
 </body>
